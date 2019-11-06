@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tài khoản</title>
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="khung">
+        <span class="login">Đăng ký</span><hr/>
+        <form action="action_page.php" method="post">
+        <div class="container">
+            <label for="uname"><b>Your name</b></label>
+            <div class="input-container">
+                <i aria-hidden="true" class="fa fa-user icon"></i>
+                <input  class="input-field" type="text" placeholder="Vui lòng điền họ và tên" name="name" required>
+            </div>
+            <label for="uname"><b>Username</b></label>
+            <div class="input-container">
+                <i aria-hidden="true" class="fa fa-user icon"></i>
+                <input  class="input-field" type="text" placeholder="Vui lòng điền tên đăng nhập" name="username" required>
+            </div>
+            <label for="psw"><b>Password</b></label>
+            <div class="input-container">
+                <i aria-hidden="true" class="fa fa-key icon"></i>
+                <input  class="input-field" type="password" placeholder="Vui lòng điền mật khẩu" name="password" required>
+            </div>
+            <label for="psw"><b>Confirm Password</b></label>
+            <div class="input-container">
+                <i aria-hidden="true" class="fa fa-key icon"></i>
+                <input  class="input-field" type="password" placeholder="Vui lòng điền lại mật khẩu" name="cfpassword" required>
+            </div>
+            <button type="submit">Đăng ký</button>
+        </div>
+
+        <div class="container" style="background-color:#f1f1f1">
+            <p>Bạn đã có tài khoản? <a href="login.html">Đăng nhập</a></p>
+        </div>
+        </form>
+    </div>
+</body>
+</html>
